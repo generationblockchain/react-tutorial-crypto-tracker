@@ -35,6 +35,22 @@ class App extends React.Component {
             </ul>
           </div>
         </section>
+
+        <section>
+          <h3 className="coin-available">Available Cryptocurrencies</h3>
+
+          <div className="container">
+            <div className="row">
+              <div className="coin-select col-md-1">
+                <img
+                  alt="Ethereum"
+                  src={require(`cryptocurrency-icons/dist/svg/color/eth.svg`)}
+                />
+                <p>Etheruem</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     );
   }
